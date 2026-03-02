@@ -1,0 +1,655 @@
+
+================================================================================
+  CARGA DE DATOS
+================================================================================
+Archivo: /Users/mateo.belalcazar/Desktop/articulos/Navegación ciegos/Bases de datos/datos 26_06_2024.xlsx
+Dimensiones: 28 filas x 120 columnas
+
+================================================================================
+  SECCION 0: VALIDACION DE DATOS
+================================================================================
+
+----------------------------------------------------------------------
+  0.1 Verificacion de N por grupo
+----------------------------------------------------------------------
+  DV: n = 15
+  NDV: n = 13
+  Total: N = 28
+
+----------------------------------------------------------------------
+  0.2 Datos faltantes
+----------------------------------------------------------------------
+  Datos faltantes en columnas E.A (error con signo): 0 total
+
+  Datos faltantes en columnas E (error absoluto):
+    E.agudo1a: 1 faltantes
+    E.agudo1t: 3 faltantes
+    E.agudo1p: 2 faltantes
+    E.agudo1c: 1 faltantes
+    E.agudo2a: 1 faltantes
+    E.agudo2p: 1 faltantes
+    E.obtuso1a: 1 faltantes
+    E.obtuso1t: 2 faltantes
+    E.obtuso1p: 1 faltantes
+    E.obtuso1c: 1 faltantes
+    E.obtuso2p: 1 faltantes
+    E.obtuso2c: 1 faltantes
+
+  Datos faltantes en columnas G (desviacion angular): 22 total
+    G.agudo1a: 4 faltantes
+    G.agudo1t: 2 faltantes
+    G.agudo1p: 1 faltantes
+    G.agudo1c: 3 faltantes
+    G.agudo2a: 4 faltantes
+    G.agudo2c: 3 faltantes
+    G.obtuso1a: 1 faltantes
+    G.obtuso1p: 1 faltantes
+    G.obtuso1c: 1 faltantes
+    G.obtuso2a: 1 faltantes
+    G.obtuso2c: 1 faltantes
+
+----------------------------------------------------------------------
+  0.3 Verificacion E.A = E * E.L
+----------------------------------------------------------------------
+  OK: E.A = E * E.L se cumple en todas las condiciones.
+
+----------------------------------------------------------------------
+  0.4 Estadisticos descriptivos demograficos por grupo
+----------------------------------------------------------------------
+
+  Variable: edad
+    DV: M = 43.53, DE = 13.16, Min = 22, Max = 60, n = 15
+    NDV: M = 37.69, DE = 14.78, Min = 20, Max = 58, n = 13
+
+  Variable: escolaridad
+    DV: M = 12.20, DE = 5.29, Min = 3, Max = 20, n = 15
+    NDV: M = 13.23, DE = 3.27, Min = 7, Max = 20, n = 13
+
+  Variable: anos.vision
+    DV: M = 8.67, DE = 6.44, Min = 2, Max = 24, n = 15
+    NDV: M = 0.00, DE = 0.00, Min = 0, Max = 0, n = 13
+
+  Variable: Sexo (frecuencias)
+Sexo       hombre  mujer
+condicion               
+DV             11      4
+NDV             9      4
+
+----------------------------------------------------------------------
+  0.5 Comparacion demografica entre grupos
+----------------------------------------------------------------------
+
+  Edad: t = 1.097, p = 0.283, d de Cohen = 0.419 ns
+    DV: M = 43.53, DE = 13.16
+    NDV: M = 37.69, DE = 14.78
+
+  Escolaridad: t = -0.628, p = 0.536, d de Cohen = -0.230 ns
+    DV: M = 12.20, DE = 5.29
+    NDV: M = 13.23, DE = 3.27
+
+----------------------------------------------------------------------
+  0.6 Chi-cuadrado para Sexo entre grupos
+----------------------------------------------------------------------
+  Chi2(1) = 0.000, p = 1.000, V de Cramer = 0.000 ns
+  Frecuencias observadas:
+Sexo       hombre  mujer
+condicion               
+DV             11      4
+NDV             9      4
+  Frecuencias esperadas:
+Sexo       hombre  mujer
+condicion               
+DV          10.71   4.29
+NDV          9.29   3.71
+
+================================================================================
+  SECCION 1: REPRODUCCION DE ANALISIS ORIGINALES
+================================================================================
+
+----------------------------------------------------------------------
+  1a. Tabla de estadisticos descriptivos - Error de posicion con signo (E.A)
+----------------------------------------------------------------------
+
+Condicion    Forma      Tamano Modalidad             M       DE    n
+------------------------------------------------------------------
+DV           Agudo      2m     Cinestesica       14.47    62.32   15
+DV           Agudo      2m     Tacto             -9.07    56.09   15
+DV           Agudo      2m     Accion            -6.33    68.96   15
+DV           Agudo      2m     Control            3.67    40.37   15
+DV           Agudo      4m     Cinestesica        2.67    94.69   15
+DV           Agudo      4m     Tacto            -19.80   110.56   15
+DV           Agudo      4m     Accion            12.53    94.39   15
+DV           Agudo      4m     Control          -25.73    82.27   15
+DV           Obtuso     2m     Cinestesica      -19.40    60.39   15
+DV           Obtuso     2m     Tacto             14.40    71.57   15
+DV           Obtuso     2m     Accion             5.53    66.90   15
+DV           Obtuso     2m     Control           16.27    68.01   15
+DV           Obtuso     4m     Cinestesica       24.13    87.16   15
+DV           Obtuso     4m     Tacto             -2.00   106.28   15
+DV           Obtuso     4m     Accion           -27.13    79.45   15
+DV           Obtuso     4m     Control           19.47    88.78   15
+NDV          Agudo      2m     Cinestesica       58.69   104.98   13
+NDV          Agudo      2m     Tacto             17.46    89.69   13
+NDV          Agudo      2m     Accion            39.15   120.60   13
+NDV          Agudo      2m     Control           23.69    92.58   13
+NDV          Agudo      4m     Cinestesica      195.46   123.01   13
+NDV          Agudo      4m     Tacto            160.31   185.43   13
+NDV          Agudo      4m     Accion            77.38   186.62   13
+NDV          Agudo      4m     Control          -31.62   205.66   13
+NDV          Obtuso     2m     Cinestesica       29.31    79.05   13
+NDV          Obtuso     2m     Tacto            -58.38   102.23   13
+NDV          Obtuso     2m     Accion            34.62    71.80   13
+NDV          Obtuso     2m     Control           31.92    95.61   13
+NDV          Obtuso     4m     Cinestesica       57.92   156.51   13
+NDV          Obtuso     4m     Tacto             73.85   190.98   13
+NDV          Obtuso     4m     Accion           103.54   130.54   13
+NDV          Obtuso     4m     Control          -18.00   106.98   13
+
+  >> Descriptivos colapsados por modalidad (E.A)
+  ............................................................
+
+Condicion    Modalidad             M       DE    n
+----------------------------------------------------
+DV           Cinestesica        5.47    42.24   15
+DV           Tacto             -4.12    50.90   15
+DV           Accion            -3.85    38.19   15
+DV           Control            3.42    46.33   15
+NDV          Cinestesica       85.35    87.90   13
+NDV          Tacto             48.31    94.29   13
+NDV          Accion            63.67   105.87   13
+NDV          Control            1.50    89.29   13
+
+----------------------------------------------------------------------
+  1b. ANOVA factorial completo: 2(CE) x 2(Forma) x 2(Tamano) x 4(Modalidad) sobre E.A
+----------------------------------------------------------------------
+
+  >> Test de Levene para el factor entre-sujetos (condicion)
+  ............................................................
+  Levene: F = 5.223, p = 0.031 *
+
+  ANOVA mixto con pingouin (4 factores):
+  Nota: pingouin maneja hasta 2 factores within. Se realiza con statsmodels.
+
+  Sujetos con datos completos (16 condiciones): 28 de 28
+
+  ANOVA mixto (factor within combinado 16 niveles):
+        Source             SS  DF1  DF2             MS         F     p-unc  p-GG-corr       np2       eps sphericity   W-spher       p-spher
+0    condicion  272780.413233    1   26  272780.413233  4.694599  0.039605        NaN  0.152945       NaN        NaN       NaN           NaN
+1  within_cond  373212.419643   15  390   24880.827976  2.872756  0.000264   0.013013  0.099497  0.484819      False  0.000023  8.007557e-09
+2  Interaction  514969.979075   15  390   34331.331938  3.963917  0.000001        NaN  0.132290       NaN        NaN       NaN           NaN
+
+  --- Descomposicion de efectos (ANOVAs separados) ---
+
+  Efecto principal de Forma (colapsando tamano y modalidad):
+    condicion: F(1,26) = 4.695, p = 0.040, eta_p2 = 0.153 *
+    shape: F(1,26) = 2.208, p = 0.149, eta_p2 = 0.078 ns
+    Interaction: F(1,26) = 6.377, p = 0.018, eta_p2 = 0.197 *
+
+  Efecto principal de Tamano (colapsando forma y modalidad):
+    condicion: F(1,26) = 4.695, p = 0.040, eta_p2 = 0.153 *
+    size: F(1,26) = 5.349, p = 0.029, eta_p2 = 0.171 *
+    Interaction: F(1,26) = 8.738, p = 0.007, eta_p2 = 0.252 **
+
+  Efecto principal de Modalidad (colapsando forma y tamano):
+    condicion: F(1,26) = 4.695, p = 0.040, eta_p2 = 0.153 *
+    modality: F(3,78) = 3.690, p = 0.015, eta_p2 = 0.124 *
+    Interaction: F(3,78) = 4.317, p = 0.007, eta_p2 = 0.142 **
+
+  Interaccion Forma x Tamano:
+    condicion: F(1,26) = 4.695, p = 0.040, eta_p2 = 0.153 *
+    sh_sz: F(3,78) = 2.923, p = 0.039, eta_p2 = 0.101 *
+    Interaction: F(3,78) = 5.755, p = 0.001, eta_p2 = 0.181 **
+
+  Interaccion Forma x Modalidad:
+    condicion: F(1,26) = 4.695, p = 0.040, eta_p2 = 0.153 *
+    sh_mo: F(7,182) = 2.612, p = 0.014, eta_p2 = 0.091 *
+    Interaction: F(7,182) = 3.431, p = 0.002, eta_p2 = 0.117 **
+
+  Interaccion Tamano x Modalidad:
+    condicion: F(1,26) = 4.695, p = 0.040, eta_p2 = 0.153 *
+    sz_mo: F(7,182) = 4.955, p < .001, eta_p2 = 0.160 ***
+    Interaction: F(7,182) = 5.839, p < .001, eta_p2 = 0.183 ***
+
+  >> Test de esfericidad de Mauchly (para factor modalidad, 4 niveles)
+  ............................................................
+  Mauchly's W = 0.877, chi2 = 3.381, df = 5, p = 0.642
+  Esfericidad asumida (p > .05).
+
+----------------------------------------------------------------------
+  1c. ANOVA colapsado: 2(CE) x 4(Modalidad) sobre E.A (error de posicion con signo)
+----------------------------------------------------------------------
+  Sujetos completos: 28
+
+  ANOVA mixto 2(CE) x 4(Modalidad):
+    condicion: F(1,26) = 4.695, p = 0.040, eta_p2 = 0.153 *
+    modality: F(3,78) = 3.690, p = 0.015, eta_p2 = 0.124 *, epsilon = 0.913
+    Interaction: F(3,78) = 4.317, p = 0.007, eta_p2 = 0.142 **
+
+  >> Esfericidad (Mauchly) para Modalidad
+  ............................................................
+  W = 0.877, chi2 = 3.381, df = 5, p = 0.642
+  Esfericidad asumida.
+
+  >> Post-hoc: Comparaciones por pares de Modalidad (Bonferroni)
+  ............................................................
+   Contrast  A  B  Paired  Parametric         T   dof alternative     p-unc    p-corr p-adjust   BF10    hedges
+0  modality  a  c    True        True  2.870785  27.0   two-sided  0.007867  0.047205     bonf  5.645  0.540560
+1  modality  a  p    True        True  1.108605  27.0   two-sided  0.277378  1.000000     bonf   0.35  0.184687
+2  modality  a  t    True        True  1.992409  27.0   two-sided  0.056526  0.339155     bonf  1.115  0.284163
+3  modality  c  p    True        True -2.122021  27.0   two-sided  0.043158  0.258947     bonf  1.381 -0.323747
+4  modality  c  t    True        True -1.285732  27.0   two-sided  0.209455  1.000000     bonf  0.421 -0.239012
+5  modality  p  t    True        True  0.547025  27.0   two-sided  0.588854  1.000000     bonf   0.23  0.089283
+
+  >> Post-hoc: Efectos simples de Modalidad DENTRO de cada grupo
+  ............................................................
+
+  Grupo DV:
+    F(3,42) = 0.312, p = 0.816, eta_g2 = 0.010, eps = 0.747 ns
+   A  B         T     p-unc  p-corr    hedges
+0  a  c  0.130174  0.898281     1.0  0.044992
+1  a  p  0.752702  0.464098     1.0  0.225127
+2  a  t  0.817387  0.427399     1.0  0.199364
+3  c  p  0.682948  0.505785     1.0  0.166549
+4  c  t  0.514713  0.614783     1.0  0.150617
+5  p  t  0.031690  0.975166     1.0  0.005767
+
+  Grupo NDV:
+    F(3,36) = 5.169, p = 0.004, eta_g2 = 0.103, eps = 0.744 **
+   A  B         T     p-unc    p-corr    hedges
+0  a  c  4.765527  0.000460  0.002759  0.916503
+1  a  p  0.830818  0.422300  1.000000  0.215704
+2  a  t  1.875406  0.085270  0.511622  0.393515
+3  c  p -3.568645  0.003862  0.023172 -0.614816
+4  c  t -2.097795  0.057771  0.346624 -0.493678
+5  p  t  0.560297  0.585586  1.000000  0.148434
+
+  >> Post-hoc: Efectos simples de Grupo DENTRO de cada modalidad
+  ............................................................
+
+  Modalidad Cinestesica:
+    DV: M = 5.47, DE = 40.81
+    NDV: M = 85.35, DE = 84.45
+    t = -2.991, p = 0.008, d = -1.187 **
+
+  Modalidad Tacto:
+    DV: M = -4.12, DE = 49.17
+    NDV: M = 48.31, DE = 90.59
+    t = -1.791, p = 0.090, d = -0.707 ns
+
+  Modalidad Accion:
+    DV: M = -3.85, DE = 36.89
+    NDV: M = 63.67, DE = 101.72
+    t = -2.180, p = 0.046, d = -0.875 *
+
+  Modalidad Control:
+    DV: M = 3.42, DE = 44.76
+    NDV: M = 1.50, DE = 85.78
+    t = 0.070, p = 0.945, d = 0.028 ns
+
+----------------------------------------------------------------------
+  1d. ANOVA para Error Angular (G - desviacion respecto a 90 grados)
+----------------------------------------------------------------------
+
+  >> Descriptivos G por grupo y modalidad (colapsado)
+  ............................................................
+
+Condicion    Modalidad             M       DE    n
+----------------------------------------------------
+DV           Cinestesica       -2.52    13.29   15
+DV           Tacto             -5.32    18.40   15
+DV           Accion            -3.87    14.16   15
+DV           Control           -5.54    10.08   15
+NDV          Cinestesica       -5.13    20.73   13
+NDV          Tacto             -7.52    17.76   13
+NDV          Accion            -8.33    17.18   13
+NDV          Control           -3.92    19.60   13
+
+  >> ANOVA 4 factores sobre G
+  ............................................................
+  Sujetos con datos completos en G: 17
+
+  ANOVA mixto 2(CE) x 4(Modalidad) sobre G:
+    condicion: F(1,15) = 0.846, p = 0.372, eta_p2 = 0.053 ns
+    modality: F(3,45) = 1.164, p = 0.334, eta_p2 = 0.072 ns
+    Interaction: F(3,45) = 0.588, p = 0.626, eta_p2 = 0.038 ns
+
+  G: Efecto de Forma:
+    condicion: F(1,15) = 0.846, p = 0.372, eta_p2 = 0.053 ns
+    shape: F(1,15) = 2.166, p = 0.162, eta_p2 = 0.126 ns
+    Interaction: F(1,15) = 0.076, p = 0.787, eta_p2 = 0.005 ns
+
+  G: Efecto de Tamano:
+    condicion: F(1,15) = 0.846, p = 0.372, eta_p2 = 0.053 ns
+    size: F(1,15) = 12.704, p = 0.003, eta_p2 = 0.459 **
+    Interaction: F(1,15) = 2.471, p = 0.137, eta_p2 = 0.141 ns
+
+  >> Post-hoc G: Comparaciones por pares de Modalidad
+  ............................................................
+   Contrast  A  B  Paired  Parametric         T   dof alternative     p-unc  p-corr p-adjust   BF10    hedges
+0  modality  a  c    True        True  0.404929  27.0   two-sided  0.688720     1.0     bonf  0.216  0.065155
+1  modality  a  p    True        True  0.633446  27.0   two-sided  0.531772     1.0     bonf  0.241  0.134095
+2  modality  a  t    True        True  1.031106  27.0   two-sided  0.311640     1.0     bonf  0.325  0.148079
+3  modality  c  p    True        True  0.376219  27.0   two-sided  0.709694     1.0     bonf  0.214  0.074343
+4  modality  c  t    True        True  0.564267  27.0   two-sided  0.577230     1.0     bonf  0.232  0.092945
+5  modality  p  t    True        True  0.125822  27.0   two-sided  0.900805     1.0     bonf  0.202  0.023734
+
+================================================================================
+  SECCION 2: ANALISIS MEJORADOS
+================================================================================
+
+----------------------------------------------------------------------
+  2a. Tamanos del efecto y ICs para comparaciones clave
+----------------------------------------------------------------------
+
+  Cohen's d e IC 95% para diferencia DV-NDV por modalidad:
+  Modalidad         d Cohen               IC 95%   Dif medias
+  ------------------------------------------------------------
+  Cinestesica        -1.187 [-132.23, -27.53]         -79.88
+  Tacto              -0.707 [-109.79, 4.94]         -52.42
+  Accion             -0.875 [-128.23, -6.81]         -67.52
+  Control             0.028 [-51.99, 55.82]           1.92
+
+----------------------------------------------------------------------
+  2b. Analisis de potencia
+----------------------------------------------------------------------
+  Interaccion CE x Modalidad:
+    eta_p2 observado = 0.142
+    f de Cohen = 0.407
+    Potencia observada (aprox.): 0.090
+    N necesario por grupo para potencia .80: 94
+    Potencia (pg, k=4 modalidades, n=14): 0.691
+
+----------------------------------------------------------------------
+  2c. Evaluacion de normalidad
+----------------------------------------------------------------------
+
+  Shapiro-Wilk por condicion x modalidad:
+  Grupo  Modalidad             W          p    Normal?
+  ----------------------------------------------------
+  DV     Cinestesica       0.921    = 0.201         Si
+  DV     Tacto             0.919    = 0.184         Si
+  DV     Accion            0.936    = 0.336         Si
+  DV     Control           0.963    = 0.750         Si
+  NDV    Cinestesica       0.913    = 0.200         Si
+  NDV    Tacto             0.943    = 0.504         Si
+  NDV    Accion            0.894    = 0.111         Si
+  NDV    Control           0.937    = 0.415         Si
+
+  Celdas con normalidad violada (p < .05): 0 de 8
+
+----------------------------------------------------------------------
+  2d. Alternativas robustas
+----------------------------------------------------------------------
+
+  >> Mann-Whitney U por modalidad (DV vs NDV)
+  ............................................................
+  Modalidad               U          p   r (efecto)    Sig
+  --------------------------------------------------------
+  Cinestesica          27.0    = 0.001        0.609     **
+  Tacto                64.0    = 0.128        0.287     ns
+  Accion               46.0    = 0.019        0.444      *
+  Control              86.0    = 0.612        0.096     ns
+
+  >> Friedman test (alternativa no parametrica para efecto de modalidad)
+  ............................................................
+  Grupo DV: chi2(3) = 0.840, p = 0.840, W de Kendall = 0.019 ns
+  Grupo NDV: chi2(3) = 5.769, p = 0.123, W de Kendall = 0.148 ns
+
+  >> ART ANOVA (Aligned Rank Transform) - Analisis de sensibilidad
+  ............................................................
+  Implementacion simplificada del ART para el modelo 2(CE) x 4(MS):
+  ART - Efecto de Condicion: F = 7.599, p = 0.011
+  ART - Efecto de Modalidad: F = 3.783, p = 0.014
+  ART - Interaccion CE x MS: F = 6.008, p < .001
+
+================================================================================
+  SECCION 3: NUEVAS PERSPECTIVAS
+================================================================================
+
+----------------------------------------------------------------------
+  3a. Diferencias individuales: anos de ceguera
+----------------------------------------------------------------------
+
+  Correlaciones: anos de ceguera vs error de posicion medio por modalidad (grupo DV)
+  Modalidad             r          p    n
+  ----------------------------------------
+  Cinestesica      -0.350    = 0.201   15 ns
+  Tacto            -0.411    = 0.128   15 ns
+  Accion           -0.364    = 0.183   15 ns
+  Control           0.030    = 0.915   15 ns
+
+  Correlaciones: anos de ceguera vs 'beneficio' de modalidades externas
+  Beneficio Tacto (|CIN| - |TAC|): r = -0.151, p = 0.591, n = 15 ns
+  Beneficio Accion (|CIN| - |ACC|): r = -0.271, p = 0.328, n = 15 ns
+
+----------------------------------------------------------------------
+  3b. Variabilidad como variable dependiente
+----------------------------------------------------------------------
+
+  >> Levene's test por modalidad (DV vs NDV en EA colapsado)
+  ............................................................
+  Modalidad        F Levene          p    Sig
+  --------------------------------------------
+  Cinestesica         2.267    = 0.144     ns
+  Tacto               2.004    = 0.169     ns
+  Accion              4.214    = 0.050     ns
+  Control             2.300    = 0.141     ns
+
+  >> Consistencia intra-participante (DE a traves de las 4 condiciones geometricas)
+  ............................................................
+
+  Grupo  Modalidad           M(DE)     DE(DE)
+  --------------------------------------------
+  DV     Cinestesica         63.45      41.42
+  DV     Tacto               70.24      45.56
+  DV     Accion              67.03      41.43
+  DV     Control             57.42      32.07
+  NDV    Cinestesica        106.83      48.37
+  NDV    Tacto              149.30      54.78
+  NDV    Accion              87.63      41.89
+  NDV    Control            104.82      48.29
+
+  >> Comparacion de consistencia DV vs NDV
+  ............................................................
+  Cinestesica: t = -2.529, p = 0.018, d = -0.969 *
+  Tacto: t = -4.114, p < .001, d = -1.580 ***
+  Accion: t = -1.305, p = 0.204, d = -0.495 ns
+  Control: t = -3.010, p = 0.007, d = -1.174 **
+
+----------------------------------------------------------------------
+  3c. Analisis de la direccion del error (sesgo sistematico)
+----------------------------------------------------------------------
+
+  Test t de una muestra: ?Es el error medio significativamente diferente de 0?
+  Grupo  Modalidad             M       DE        t          p        d          Dir
+  --------------------------------------------------------------------------------
+  DV     Cinestesica        5.47    42.24    0.501    = 0.624    0.129    Sobreest. ns
+  DV     Tacto             -4.12    50.90   -0.313    = 0.759   -0.081    Subestim. ns
+  DV     Accion            -3.85    38.19   -0.390    = 0.702   -0.101    Subestim. ns
+  DV     Control            3.42    46.33    0.286    = 0.779    0.074    Sobreest. ns
+  NDV    Cinestesica       85.35    87.90    3.501    = 0.004    0.971    Sobreest. **
+  NDV    Tacto             48.31    94.29    1.847    = 0.089    0.512    Sobreest. ns
+  NDV    Accion            63.67   105.87    2.168    = 0.051    0.601    Sobreest. ns
+  NDV    Control            1.50    89.29    0.061    = 0.953    0.017    Sobreest. ns
+
+----------------------------------------------------------------------
+  3d. Error absoluto vs error con signo
+----------------------------------------------------------------------
+  Sujetos completos para error absoluto: 28
+
+  >> ANOVA 2(CE) x 4(Modalidad) sobre Error Absoluto (E)
+  ............................................................
+    condicion: F(1,26) = 23.755, p < .001, eta_p2 = 0.477 ***
+    modality: F(3,78) = 3.657, p = 0.016, eta_p2 = 0.123 *
+    Interaction: F(3,78) = 1.182, p = 0.322, eta_p2 = 0.044 ns
+
+  Comparacion Descriptiva: Error Absoluto vs Error con Signo
+  Grupo  Mod        M(|E|)     M(E.A)        Dif
+  ----------------------------------------------
+  DV     CIN         60.29       5.47      54.82
+  DV     TAC         70.13      -4.12      66.02
+  DV     ACC         63.57      -3.85      59.72
+  DV     CTR         58.30       3.42      54.88
+  NDV    CIN        129.85      85.35      44.50
+  NDV    TAC        148.85      48.31     100.54
+  NDV    ACC        131.66      63.67      67.99
+  NDV    CTR        109.28       1.50     107.78
+
+----------------------------------------------------------------------
+  3e. Analisis bayesiano
+----------------------------------------------------------------------
+
+  Factores de Bayes (BF10) para cada efecto del modelo 2(CE) x 4(MS):
+  (BF10 > 3: evidencia moderada, > 10: fuerte, > 100: muy fuerte)
+  (BF10 < 1/3: evidencia moderada para H0)
+
+  >> BF10 para diferencia DV vs NDV por modalidad
+  ............................................................
+  Cinestesica: BF10 = 9.79
+  Tacto: BF10 = 1.25
+  Accion: BF10 = 2.34
+  Control: BF10 = 0.35
+
+  >> BF10 para comparaciones de modalidad dentro de cada grupo
+  ............................................................
+
+  Grupo DV:
+    CIN vs TAC: BF10 = 0.35
+    CIN vs ACC: BF10 = 0.34
+    CIN vs CTR: BF10 = 0.26
+    TAC vs ACC: BF10 = 0.26
+    TAC vs CTR: BF10 = 0.29
+    ACC vs CTR: BF10 = 0.32
+
+  Grupo NDV:
+    CIN vs TAC: BF10 = 1.08
+    CIN vs ACC: BF10 = 0.37
+    CIN vs CTR: BF10 = 76.98
+    TAC vs ACC: BF10 = 0.32
+    TAC vs CTR: BF10 = 1.45
+    ACC vs CTR: BF10 = 12.69
+
+  >> ANOVA bayesiano RM
+  ............................................................
+  Aproximacion BF para la interaccion CE x MS (basado en BIC):
+    BIC modelo completo (con interaccion) = 1305.7
+    BIC modelo reducido (sin interaccion) = 1297.0
+    BF10 (interaccion) ~ 0.013
+    Interpretacion: Evidencia a favor de la hipotesis nula (sin interaccion)
+
+----------------------------------------------------------------------
+  3f. Analisis del tiempo de navegacion (exploratorio)
+----------------------------------------------------------------------
+
+  Datos de tiempo disponibles: 100 observaciones
+
+  >> Descriptivos de tiempo por grupo y modalidad
+  ............................................................
+  Grupo  Modalidad         M (seg)         DE    n
+  ------------------------------------------------
+  DV     Cinestesica          9.56       2.67   13
+  DV     Tacto               10.09       3.91   13
+  DV     Accion               9.92       2.35   13
+  DV     Control             10.53       3.28   13
+  NDV    Cinestesica         11.10       2.04   12
+  NDV    Tacto               12.01       4.31   12
+  NDV    Accion               8.94       2.05   12
+  NDV    Control             10.17       2.24   12
+
+  >> ANOVA mixto 2(CE) x 4(Modalidad) sobre Tiempo
+  ............................................................
+    condicion: F(1,23) = 0.301, p = 0.589, eta_p2 = 0.013 ns
+    modality: F(3,69) = 2.554, p = 0.062, eta_p2 = 0.100 ns
+    Interaction: F(3,69) = 3.130, p = 0.031, eta_p2 = 0.120 *
+
+  >> Correlacion velocidad-precision (por grupo)
+  ............................................................
+  Grupo DV: r(tiempo, |error|) = 0.108, p = 0.445 ns
+  Grupo NDV: r(tiempo, |error|) = -0.181, p = 0.219 ns
+
+----------------------------------------------------------------------
+  3g. Indice de compensacion
+----------------------------------------------------------------------
+
+  Indice de compensacion = (|error_CIN| - |error_EXT|) / |error_CIN|
+  Valores positivos = mejora con ayuda externa; negativos = empeoramiento
+
+  Grupo  Tipo              M       DE    n
+  ----------------------------------------
+  DV     Tacto        -0.287    0.501   15
+  DV     Accion       -0.152    0.404   15
+  NDV    Tacto        -0.185    0.385   13
+  NDV    Accion       -0.052    0.533   13
+
+  >> Comparacion del indice de compensacion DV vs NDV
+  ............................................................
+  Tacto: t = -0.607, p = 0.549, d = -0.226 ns
+  Accion: t = -0.551, p = 0.587, d = -0.213 ns
+
+  >> Test de una muestra: ?Indice significativamente diferente de 0?
+  ............................................................
+  DV - Tacto: M = -0.287, t = -2.214, p = 0.044 *
+  DV - Accion: M = -0.152, t = -1.455, p = 0.168 ns
+  NDV - Tacto: M = -0.185, t = -1.728, p = 0.110 ns
+  NDV - Accion: M = -0.052, t = -0.352, p = 0.731 ns
+
+  >> Correlacion: indice de compensacion vs anos de ceguera (grupo DV)
+  ............................................................
+  Tacto: r = -0.113, p = 0.688, n = 15 ns
+  Accion: r = 0.253, p = 0.362, n = 15 ns
+
+================================================================================
+  SECCION 4: FIGURAS
+================================================================================
+
+  Generando fig1_interaction_CE_MS.png...
+  OK: fig1_interaction_CE_MS.png guardada.
+
+  Generando fig2_individual_trajectories.png...
+  OK: fig2_individual_trajectories.png guardada.
+
+  Generando fig3_absolute_vs_signed.png...
+  OK: fig3_absolute_vs_signed.png guardada.
+
+  Generando fig4_variability.png...
+  OK: fig4_variability.png guardada.
+
+  Generando fig5_error_direction.png...
+  OK: fig5_error_direction.png guardada.
+
+  Generando fig6_compensation_index.png...
+  OK: fig6_compensation_index.png guardada.
+
+  Generando fig7_correlation_years.png...
+  OK: fig7_correlation_years.png guardada.
+
+  Generando fig8_qq_residuals.png...
+  OK: fig8_qq_residuals.png guardada.
+
+  Normalidad de residuos del modelo: W = 0.957, p = 0.001 **
+
+================================================================================
+  RESUMEN FINAL
+================================================================================
+
+  Este archivo contiene los resultados completos del analisis estadistico del
+  estudio de navegacion espacial en personas con discapacidad visual (DV, n=15)
+  y normovidentes vendados (NDV, n=13).
+
+  Secciones:
+  0. Validacion de datos
+  1. Reproduccion de analisis originales (ANOVAs factoriales y colapsados)
+  2. Analisis mejorados (tamanos del efecto, potencia, normalidad, robustos)
+  3. Nuevas perspectivas (diferencias individuales, variabilidad, direccion
+     del error, analisis bayesiano, tiempo, indice de compensacion)
+  4. Figuras (8 graficos guardados como PNG en 300 dpi)
+
+  Figuras generadas:
+  - fig1_interaction_CE_MS.png: Interaccion CE x Modalidad (figura clave)
+  - fig2_individual_trajectories.png: Trayectorias individuales
+  - fig3_absolute_vs_signed.png: Error absoluto vs con signo
+  - fig4_variability.png: Variabilidad intra-participante
+  - fig5_error_direction.png: Violin plots del error con signo
+  - fig6_compensation_index.png: Indice de compensacion
+  - fig7_correlation_years.png: Correlacion anos de ceguera vs error
+  - fig8_qq_residuals.png: QQ plot de residuos

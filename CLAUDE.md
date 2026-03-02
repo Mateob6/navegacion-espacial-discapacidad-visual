@@ -25,16 +25,30 @@ Estudio cuasi-experimental (diseño factorial mixto 2x2x2x4) que explora cómo l
 
 ```
 ├── CLAUDE.md                          # Este archivo
-├── Navegación ciegos.docx             # Versión principal del manuscrito (más reciente, ~julio 2025)
-├── Navegación ciegos - abril 2025 - Mateo.docx  # Versión anterior del manuscrito
-├── Criterios revista.docx             # Criterios y guía para autores de Universitas Psychologica
-├── Libro1.xlsx                        # Datos auxiliares
-└── Bases de datos/                    # Datos experimentales
-    ├── datos 26_06_2024.xlsx          # Base de datos principal
-    ├── datos 26_06_2024 - copia.xlsx  # Copia de respaldo
-    ├── Modalidad_x_forma.xlsx         # Datos cruzados: modalidad sensorial x forma del triángulo
-    ├── Modalidad_x_tamaño.xlsx        # Datos cruzados: modalidad sensorial x tamaño del recorrido
-    └── Modalidad_sensorial.xlsx       # Datos por modalidad sensorial
+├── manuscrito/                        # Documento LaTeX
+│   ├── main.tex                       # Archivo principal del manuscrito
+│   ├── referencias.bib                # Bibliografía BibTeX
+│   └── figuras/                       # Copias de figuras para compilación LaTeX
+├── datos/                             # Datos experimentales
+│   ├── datos 26_06_2024.xlsx          # Base de datos principal
+│   ├── datos 26_06_2024 - copia.xlsx  # Copia de respaldo
+│   ├── Modalidad_x_forma.xlsx         # Datos cruzados: modalidad × forma
+│   ├── Modalidad_x_tamaño.xlsx        # Datos cruzados: modalidad × tamaño
+│   └── Modalidad_sensorial.xlsx       # Datos por modalidad sensorial
+├── analisis/                          # Scripts y productos del análisis
+│   ├── analisis_completo.py           # Script Python del análisis estadístico
+│   ├── resultados_completos.txt       # Output completo del análisis
+│   ├── guia_resultados.md             # Guía de resultados para escritura
+│   └── literatura_actualizada.md      # Literatura 2020-2025 compilada
+├── figuras/                           # Figuras originales (PNG 300 dpi)
+│   ├── fig1_interaction_CE_MS.png
+│   ├── fig2_individual_trajectories.png
+│   └── ...
+└── docs_originales/                   # Versiones Word anteriores
+    ├── Navegación ciegos.docx         # Versión principal (~julio 2025)
+    ├── Navegación ciegos - abril 2025 - Mateo.docx
+    ├── Criterios revista.docx         # Guía para autores de Universitas Psychologica
+    └── Libro1.xlsx                    # Datos auxiliares
 ```
 
 ## Diseño experimental
